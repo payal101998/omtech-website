@@ -1,0 +1,31 @@
+ .toppicture{
+    display: flex;
+    justify-content: center;
+}
+.abouttext{
+    margin-top: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.col-md-6{
+    position: relative;
+    left: 18vw;
+    width: 60%;
+}
+.bd-placeholder-img{
+    margin: 20px;
+}
+
+.mission{
+    margin-left: 20px;
+}
+
+li{
+    margin-left: 20px;
+    margin-bottom: 5px;
+}
+
+.aboutheading{
+    margin-left: 47px;
+}

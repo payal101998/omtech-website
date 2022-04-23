@@ -1,0 +1,99 @@
+.body{
+    height: 100vh;
+}
+
+.bottom{
+    width: 100vw;
+    height: 70vh;
+}
+
+.top{
+    width: 100vw;
+    height: 70vh;
+}
+
+#fade_out {
+  position:relative;
+  height:70%;
+  width:auto;
+  margin:0 auto;
+}
+
+#fade_out img {
+  position:absolute;
+  left:0;
+  -webkit-transition: opacity 2s linear;
+  -moz-transition: opacity 2s linear;
+  transition: opacity 2s linear;
+}
+
+#fade_out img.top:hover {
+  opacity:0;
+}
+
+.bigtext{
+    position: relative;
+    text-align: center;
+    top: 35vh;
+    font-size: 42px;
+    color: white;
+}
+
+.slider{
+    width: 100vw;
+    height: 40vh;
+    display: flex;
+    margin-top:10px ;
+}
+.slider1{
+    width: 50vw;
+    height: 40vh;
+    animation: petrol 3s infinite ease-in forwards;
+    transform: translate(-50vw);
+}
+
+
+@keyframes petrol{
+    0%{
+        transform:translate(0vw);
+    }
+    100%{
+        transform:translate(10vw);
+    }
+}
+.service{
+    width: 40vw;
+    text-align: end;
+    margin-top: 10px;
+}
+
+.liservice{
+    list-style: none;
+    font-size: 25px;
+}
+.service h6{
+    font-size: 2.5rem;
+}
+
+.thirdimage{
+    width: 100vw;
+    height: 40vh;
+    margin-top: 10px;
+    display: flex;
+}
+
+.thirdimage1{
+    width: 33.33vw;
+    height: 40vh;
+    margin-left: 15px;
+}
+
+.thirdimg2{
+    width: 33.33vw;
+    height: 40vh;
+}
+
+.thirdimg3{
+    width: 33.33vw;
+    height: 40vh;
+}
